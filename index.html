@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://img.freepik.com/premium-vector/stopwatch-clipart-vector-art-illustration_761413-18074.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="cont">
+        <h3>STOPWATCH</h3>
+        <h1 id="time">00:00:00</h1>
+        <div class="buttons">
+            <button id="stop" onclick="stop()">
+                <i class="ri-pause-circle-line"></i>
+            </button>
+            <button id="start" onclick="start()">
+                <i class="ri-play-circle-line"></i>
+            </button>
+            <button id="reset" onclick="reset()">
+                <i class="ri-refresh-line"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
